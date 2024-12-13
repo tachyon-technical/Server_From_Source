@@ -15,8 +15,8 @@ PREFIX_DIR="/opt/usr/local"
 INCLUDE_DIR="$PREFIX_DIR/include"
 LIB_DIR="$PREFIX_DIR/lib"
 OPTIMIZATION='-O3 -march=native -funroll-loops'
-DEPENDENCIES="https://github.com/tachyon-technical/Infrastructure-as-Code/raw/refs/heads/main/cloud-init-nginx-streaming-base/dependencies.tar.xz"
-DEPENDENCIES_SHA256SUM="https://raw.githubusercontent.com/tachyon-technical/Infrastructure-as-Code/refs/heads/main/cloud-init-nginx-streaming-base/dependencies.tar.xz.sha256sum"
+DEPENDENCIES="https://github.com/tachyon-technical/Server_From_Source/raw/refs/heads/main/dependencies.tar.xz.sha256sum"
+DEPENDENCIES_SHA256SUM="${DEPENDENCIES}.sha256sum"
 
 PROCS=$(nproc)
 if [ "$PROCS" -le "3" ];
