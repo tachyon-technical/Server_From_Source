@@ -9,3 +9,7 @@ runcmd:
   - [ chmod, 744, "/tmp/deps.sh" ]
   - [ sleep, 2 ]
   - [ bash, "/tmp/deps.sh" ]
+  - [ wget, "https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/main.sh", -O, "/tmp/main.sh" ]
+  - [ chmod, 744, "/tmp/main.sh" ]
+  - [ sleep, 2 ]
+  - [ bash, "/tmp/main.sh" ]
