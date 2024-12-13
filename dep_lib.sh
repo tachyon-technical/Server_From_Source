@@ -15,7 +15,7 @@ PREFIX_DIR="/opt/usr/local"
 INCLUDE_DIR="$PREFIX_DIR/include"
 LIB_DIR="$PREFIX_DIR/lib"
 OPTIMIZATION='-O3 -march=native -funroll-loops'
-DEPENDENCIES="https://github.com/tachyon-technical/Server_From_Source/raw/refs/heads/main/dependencies.tar.xz.sha256sum"
+DEPENDENCIES="https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/dependencies.tar.xz"
 DEPENDENCIES_SHA256SUM="https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/dependencies.tar.xz.sha256sum"
 
 PROCS=$(nproc)
