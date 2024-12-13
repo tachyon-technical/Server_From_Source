@@ -1,0 +1,11 @@
+#cloud-config
+# Simple cloud-init to install Docker
+
+runcmd:
+  - [ wget, "https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/dep_lib.sh", -O, "/tmp/dep_lib.sh" ]
+  - [ chmod, 744, "/tmp/dep_lib.sh" ]
+  - [ sleep, 2 ]
+  - [ wget, "https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/deps.sh", -O, "/tmp/deps.sh" ]
+  - [ chmod, 744, "/tmp/deps.sh" ]
+  - [ sleep, 2 ]
+  - [ bash, "/tmp/deps.sh" ]
