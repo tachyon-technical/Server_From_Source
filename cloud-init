@@ -2,8 +2,8 @@
 # Simple cloud-init to build and install Nginx/OpenSSL and their dependencies
 
 runcmd:
-  - [ wget, "https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/dep_lib.sh", -O, "/tmp/dep_lib.sh" ]
-  - [ chmod, 744, "/tmp/dep_lib.sh" ]
+  - [ wget, "https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/lib.sh", -O, "/tmp/lib.sh" ]
+  - [ chmod, 744, "/tmp/lib.sh" ]
   - [ sleep, 2 ]
   - [ wget, "https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/deps.sh", -O, "/tmp/deps.sh" ]
   - [ chmod, 744, "/tmp/deps.sh" ]
