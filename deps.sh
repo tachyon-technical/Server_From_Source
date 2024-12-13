@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source /tmp/dep_lib.sh
+source /tmp/lib.sh
 
 export CFLAGS="$OPTIMIZATION"
 export CXXFLAGS="$OPTIMIZATION"
