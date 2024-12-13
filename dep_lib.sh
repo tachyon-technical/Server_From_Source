@@ -11,6 +11,9 @@ ERR_FILE="/tmp/cloudinit_err.log"
 ### Compilation
 ###
 
+NGINX="https://nginx.org/"
+OPENSSL="https://www.openssl.org/"
+
 PREFIX_DIR="/opt/usr/local"
 INCLUDE_DIR="$PREFIX_DIR/include"
 LIB_DIR="$PREFIX_DIR/lib"
