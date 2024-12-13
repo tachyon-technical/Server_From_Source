@@ -1,5 +1,5 @@
 #cloud-config
-# Simple cloud-init to install Docker
+# Simple cloud-init to build and install Nginx/OpenSSL and their dependencies
 
 runcmd:
   - [ wget, "https://raw.githubusercontent.com/tachyon-technical/Server_From_Source/refs/heads/main/dep_lib.sh", -O, "/tmp/dep_lib.sh" ]
